@@ -1,0 +1,26 @@
+{
+  "eMBB": {
+    "type": "eMBB",
+    "bandwidth": "1000Mbps",
+    "latency": "10ms",
+    "allocated": 800,
+    "users": 2,
+    "timestamp": "2025-11-18T12:25:15.241659"
+  },
+  "URLLC": {
+    "type": "URLLC",
+    "bandwidth": "100Mbps",
+    "latency": "1ms",
+    "allocated": 80,
+    "users": 1,
+    "timestamp": "2025-11-18T12:25:15.241686"
+  },
+  "mMTC": {
+    "type": "mMTC",
+    "bandwidth": "50Mbps",
+    "latency": "100ms",
+    "allocated": 40,
+    "users": 0,
+    "timestamp": "2025-11-18T12:25:15.241690"
+  }
+}

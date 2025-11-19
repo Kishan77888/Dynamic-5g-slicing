@@ -1,0 +1,47 @@
+{
+  "stats": {
+    "total_bandwidth": 1150,
+    "allocated_bandwidth": 1150,
+    "available_bandwidth": 0,
+    "total_slices": 3,
+    "total_users": 3,
+    "timestamp": "2025-11-18T12:31:48.509936"
+  },
+  "slices": {
+    "embb_1": {
+      "name": "Enhanced Mobile Broadband",
+      "type": "eMBB",
+      "max_bandwidth": "1000Mbps",
+      "allocated_bandwidth": "1000Mbps",
+      "latency": "10ms",
+      "users": 2,
+      "utilization": "100.0%",
+      "active_users": [
+        "UE_001",
+        "UE_002"
+      ]
+    },
+    "urllc_1": {
+      "name": "Ultra-Reliable Low Latency",
+      "type": "URLLC",
+      "max_bandwidth": "100Mbps",
+      "allocated_bandwidth": "100Mbps",
+      "latency": "1ms",
+      "users": 1,
+      "utilization": "100.0%",
+      "active_users": [
+        "UE_003"
+      ]
+    },
+    "mmtc_1": {
+      "name": "Massive Machine Type Communications",
+      "type": "mMTC",
+      "max_bandwidth": "50Mbps",
+      "allocated_bandwidth": "50Mbps",
+      "latency": "100ms",
+      "users": 0,
+      "utilization": "100.0%",
+      "active_users": []
+    }
+  }
+}
